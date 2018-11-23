@@ -158,7 +158,7 @@ footer{
 /* media queries */ 
 @media(max-width: 768px){
 	header #branding,
-	header #branding img,
+	header #branding li,
 	header nav,
 	header nav li,
 	article#main-col,
