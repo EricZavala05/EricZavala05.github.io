@@ -158,9 +158,12 @@ footer{
 /* media queries */ 
 @media(max-width: 768px){
 	header #branding,
+	header #branding img,
 	header nav,
 	header nav li,
-	article#main-col{
+	article#main-col,
+	article#contact-col,
+	aside#sidebar{
 		float:none;
 		text-align:center;
 		width:100%;
