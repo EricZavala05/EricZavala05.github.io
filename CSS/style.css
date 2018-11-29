@@ -37,6 +37,14 @@ ul {
 	border:#8b0000 3px solid;
 }
 
+#page-title{
+	text-align: center;
+}
+
+.makebold{
+	font-weight: bold;
+}
+
 /*Header*/
 header{
 	background:#0d98ba;
@@ -83,7 +91,7 @@ header a:hover{
 	font-weight:bold;
 }
 
-/*Showcase*/
+/*Showcase For Home Page*/
 #showcase{
 	min-height:600px;
 	background:url('../images/UIC.jpg') no-repeat;
@@ -105,25 +113,16 @@ header a:hover{
 	text-shadow: 0 0 6px black;
 }
 
-
-/* Main-col*/
-article #page-title{
-	text-align: center;
-}
-
-.makebold{
-	font-weight: bold;
-}
-article #icon{
+/* About Me Section*/
+#icon{
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width:40%;
-    height:40%;
-    border:0;
+    border-radius: 50%
 }
 
-/*courses section*/
+/*Coursework section*/
 .manage{
 	margin-top:20px;
 	margin-bottom:50px;
@@ -141,15 +140,15 @@ article #icon{
 	margin-bottom: 50px;
 }
 
-/* Sidebar */
-aside#sidebar{
+
+/* Contact Section */
+#sidebar{
 	float:right;
 	width:30%;
 	margin-top:10px;
 }
 
-/*contact-col */
-article#contact-col{
+#contact-col{
 	float:left;
 	width:65%;
 }
