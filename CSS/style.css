@@ -129,8 +129,8 @@ header a:hover{
 	line-height: 1.6;
 }
 
-.courses{
-	line-height: 1.2;
+.data{
+	line-height: 1;
 	height:auto;
 }
 
@@ -140,17 +140,27 @@ header a:hover{
 	margin-bottom: 50px;
 }
 
-
 /* Contact Section */
 #sidebar{
 	float:right;
 	width:30%;
 	margin-top:10px;
+	text-align:center;
 }
 
 #contact-col{
 	float:left;
 	width:65%;
+}
+
+/* Involvement Section*/
+.logo
+{
+	float:left;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
 }
 
 
@@ -174,7 +184,8 @@ footer{
 	article#main-col,
 	article#contact-col,
 	article#icon,
-	aside#sidebar{
+	aside#sidebar,
+	.logo{
 		float:none;
 		text-align:center;
 		width:100%;
