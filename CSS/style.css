@@ -16,14 +16,16 @@ body{
 	background-color:#f4f4f4;
 }
 
-/*Global*/
+/**********************************************************************************/
+/*									Global		 								  */
+/**********************************************************************************/
 .container{
 	width:80%;
 	margin:auto;
 	overflow:hidden;
 }
 
-ul {
+ul{
 	margin:0;
 	padding:0;
 }
@@ -45,7 +47,9 @@ ul {
 	font-weight: bold;
 }
 
-/*Header*/
+/**********************************************************************************/
+/*								Header											  */
+/**********************************************************************************/
 header{
 	background:#0d98ba;
 	color:#ffffff;
@@ -60,23 +64,21 @@ header a{
 	text-decoration:none;
 	text-transform: uppercase;
 	font-size: 16px;
+
 }
 
 header li{
 	float: left;
 	display: inline;
-	padding: 0 10px 0 10px ;
+	padding: 0 10px 0 10px;
 }
 
-header #branding{
+header #links{
 	float:left;
-}
-
-header #branding a{
 	margin:0;
 }
 
-header nav{
+header #tabs{
 	float:right;
 	margin-top:10px;
 }
@@ -91,7 +93,10 @@ header a:hover{
 	font-weight:bold;
 }
 
-/*Showcase For Home Page*/
+
+/**********************************************************************************/
+/*							Showcase For Home Page								  */
+/**********************************************************************************/
 #showcase{
 	min-height:600px;
 	background:url('../images/UIC.jpg') no-repeat;
@@ -113,7 +118,9 @@ header a:hover{
 	text-shadow: 0 0 6px black;
 }
 
-/* About Me Section*/
+/**********************************************************************************/
+/*								About Me Section								  */
+/**********************************************************************************/
 #icon{
 	display: block;
     margin-left: auto;
@@ -122,7 +129,9 @@ header a:hover{
     border-radius: 50%
 }
 
-/*Coursework section*/
+/**********************************************************************************/
+/*								Coursework Section								  */
+/**********************************************************************************/
 .manage{
 	margin-top:20px;
 	margin-bottom:50px;
@@ -140,7 +149,9 @@ header a:hover{
 	margin-bottom: 50px;
 }
 
-/* Contact Section */
+/**********************************************************************************/
+/*								Contact Section									  */
+/**********************************************************************************/
 #sidebar{
 	float:right;
 	width:30%;
@@ -153,7 +164,9 @@ header a:hover{
 	width:65%;
 }
 
-/* Involvement Section*/
+/**********************************************************************************/
+/*								Involvement Section								  */
+/**********************************************************************************/
 .logo
 {
 	float:left;
@@ -163,8 +176,24 @@ header a:hover{
     width:30%;
 }
 
-
-/* footer */
+/**********************************************************************************/
+/*									Projects									  */
+/**********************************************************************************/
+button{
+	background-color:#ffffff;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	display:block;
+	margin-bottom: 10px;
+}
+button:hover {
+  background-color: #000000; /* Green */
+  color: white;
+}
+/**********************************************************************************/
+/*									Footer										  */
+/**********************************************************************************/
 footer{
 	padding:20px;
 	margin-top:20px;
@@ -177,26 +206,28 @@ footer{
 
 /* media queries */ 
 @media(max-width: 768px){
-	header #branding,
-	header #branding li,
-	header nav,
-	header nav li,
+	header #links,
+	header #links li,
+	header #tabs,
+	header #tabs li,
 	article#main-col,
 	article#contact-col,
 	article#icon,
 	aside#sidebar,
+
 	.logo{
 		float:none;
 		text-align:center;
 		width:100%;
 		}
 
-		header{
-			padding-bottom:20px;
-		}
+	header{
+		padding-bottom:20px;
+	}
 
-		#showcase h1{
-			margin-top:40px;
-		}
+	#showcase h1{
+
+		margin-top:40px;	
+	}
 
 }
